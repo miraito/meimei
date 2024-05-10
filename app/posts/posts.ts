@@ -1,3 +1,5 @@
+"use server";
+
 import { redisClient } from "@/lib/redis";
 type Post = {
   title: string;
